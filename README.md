@@ -19,5 +19,5 @@ To see a demo video uploaded on my channel of YouTube, please click the followin
 
 ## References
 
- * Typodarium http://www.typodarium.de/‎
+ * Typodarium http://www.typodarium.de/
  * TeX Live http://www.tug.org/texlive/
