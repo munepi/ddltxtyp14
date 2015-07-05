@@ -210,10 +210,10 @@
 \newcounter{ddltxtyp@d}
 \newcounter{ddltxtyp@w}
 
-%% set initial variables: 2014-01-01 Wed
+%% set initial variables: 2015-01-01 Thu
 \setcounter{ddltxtyp@m}{1}
 \setcounter{ddltxtyp@d}{1}
-\setcounter{ddltxtyp@w}{4}
+\setcounter{ddltxtyp@w}{5}
 
 \newenvironment{package}[3]{%
   \bgroup
