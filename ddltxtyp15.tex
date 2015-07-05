@@ -3372,6 +3372,14 @@ fontaxes package is required for use with [pdf]{\LaTeX}.
 % fontaxes package is required for use with [pdf]{\LaTeX}.
 % \end{package}
 
+\begin{package}{Caladea-Regular-tlf-t1--base}{caladea}{Support for the Caladea family of fonts}
+This package provides LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX
+support for the Caladea family of fonts, designed by Carolina
+Giovagnoli and Andres Torresi of the Huerta Tipografica foundry
+and adopted by Google for ChromeOS as a font-metric compatible
+replacement for Cambria.
+\end{package}
+
 % \begin{package}{}{calligra}{Calligraphic font.}
 % A calligraphic font in the handwriting style of the author,
 % Peter Vanroose. The font is supplied as MetaFont source {\LaTeX}
@@ -3398,6 +3406,15 @@ fundus bundle.
 % package using FontForge from its sources, for full support with
 % Dvips.
 % \end{package}
+
+
+\begin{package}{Carlito-lf-t1--base}{carlito}{Support for Carlito sans-serif fonts}
+The package provides LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX
+support for the Carlito family of sans serif fonts, designed by
+Lukasz Dziedzic of the tyPoland foundry and adopted by Google
+for ChromeOS as a font-metric compatible replacement for
+Calibri.
+\end{package}
 
 \begin{package}{cmin17}{carolmin-ps: CarolinganMinusculesRegular17}{Adobe Type~1 format of Carolingian Minuscule fonts.}
 The bundle offers Adobe Type~1 format versions of Peter
@@ -3637,6 +3654,15 @@ Cyclop in the inter-war period, % during the occupation in the
 % % Czech fonts).
 % \end{package}
 
+\begin{package}{dadreal}{dad}{Simple typesetting system for mixed Arabic/Latin documents.}
+This package allows simple typesetting in Arabic script,
+intended for mixed Arabic/Latin script usage in situations
+where heavy-duty solutions are discouraged. The  system
+operates with both Unicode and transliterated input, allowing
+the user to choose the most appropriate approach for every
+situation.
+\end{package}
+
 % \begin{package}{}{dancers}{Font for Conan Doyle's ``The Dancing Men''.}
 % The (Sherlock Holmes) book contains a code which uses dancing
 % men as glyphs. The alphabet as given is not complete, lacking
@@ -3650,15 +3676,22 @@ Cyclop in the inter-war period, % during the occupation in the
 % 'character'. The font is distributed as MetaFont source.
 % \end{package}
 
-\begin{package}{DejaVuSans-Bold-tlf-t1--base}{dejavu}{{\LaTeX} support for the DejaVu fonts.}
-The package contains {\LaTeX} support for the DejaVu fonts. They
-are derived from the Vera fonts, but contain more characters
-and styles. The fonts are included in the original TrueType
-format and converted Type~1 format. The (currently) supported
-encodings are: OT1, T1, IL2, TS1, T2*, X2, QX, and LGR. The
-package doesn't (currently) support mathematics. More encodings
-and/or features will come later.
-\end{package}
+% \begin{package}{DANTE-Bold--texnansx--base}{dantelogo}{A font for DANTE's logo.}
+% The DANTE font for the logo of DANTE (http://www.dante.de), the
+% German speaking TeX users group. The font includes only the
+% five characters d, a, n, t, and e. dantelogo.sty provides an
+% interface for LuaLaTeX/XeLaTeX/pdfLaTeX.
+% \end{package}
+
+% \begin{package}{DejaVuSans-Bold-tlf-t1--base}{dejavu}{{\LaTeX} support for the DejaVu fonts.}
+% The package contains {\LaTeX} support for the DejaVu fonts. They
+% are derived from the Vera fonts, but contain more characters
+% and styles. The fonts are included in the original TrueType
+% format and converted Type~1 format. The (currently) supported
+% encodings are: OT1, T1, IL2, TS1, T2*, X2, QX, and LGR. The
+% package doesn't (currently) support mathematics. More encodings
+% and/or features will come later.
+% \end{package}
 
 % \begin{package}{DejaVuSans-BoldOblique-tlf-t1--base}{dejavu}{{\LaTeX} support for the DejaVu fonts.}
 % The package contains {\LaTeX} support for the DejaVu fonts. They
@@ -4018,14 +4051,23 @@ of Mathematics of the University of the Aegean, Greece.
 % PostScript and PDF formats.
 % \end{package}
 
-\begin{package}{rESSTIX13}{esstix}{PostScript versions of the ESSTIX, with macro support.}
-These fonts represent translation to PostScript Type~1 of the
-ESSTIX fonts. ESSTIX seem to have been a precursor to the STIX
-project, and were donated by Elsevier to that project. The
-accompanying virtual fonts with customized metrics and {\LaTeX}
-support files allow their use as calligraphic, fraktur and
-double-struck (blackboard bold) in maths mode.
+\begin{package}{Erewhon-Regular-lf-t1--base}{erewhon}{Font package derived from Heuristica and Utopia.}
+Erewhon is based on the Heuristica package, which is based in
+turn on Utopia. Erewhon adds a number of new features -- small
+caps in all styles rather than just regular, added figure
+styles (proportional, inferior, numerator, denominator) and
+superior letters. The size is 6{\%} smaller than Heuristica,
+matching that of UtopiaStd.
 \end{package}
+
+% \begin{package}{rESSTIX13}{esstix}{PostScript versions of the ESSTIX, with macro support.}
+% These fonts represent translation to PostScript Type~1 of the
+% ESSTIX fonts. ESSTIX seem to have been a precursor to the STIX
+% project, and were donated by Elsevier to that project. The
+% accompanying virtual fonts with customized metrics and {\LaTeX}
+% support files allow their use as calligraphic, fraktur and
+% double-struck (blackboard bold) in maths mode.
+% \end{package}
 
 % \begin{package}{}{esvect}{Vector arrows.}
 % Write vectors using an arrow which is different to the Computer
@@ -5325,7 +5367,7 @@ variant provides more conventional shapes for some glyphs.
 % t1fonts obsolete.
 % \end{package}
 
-\begin{package}{T1-TeXGyrePagellaX-Regular-lnum-kern-liga--base}{newpx}{Alternative uses of the PX fonts, with improved metrics.}
+\begin{package}{zpl-Regular-tlf-t1}{newpx}{Alternative uses of the PX fonts, with improved metrics.}
 The package, based on pxfonts, provides many fixes and
 enhancements to that package, and splits it in two parts
 (newpxtext and newpxmath) which may be run independently of one
@@ -5334,25 +5376,6 @@ options. For proper operation, the packages require that the
 packages newtxmath and txfonts be installed and their map files
 enabled.
 \end{package}
-\begin{package}{T1-TeXGyrePagellaX-Regular-onum-kern-liga--base}{newpx}{Alternative uses of the PX fonts, with improved metrics.}
-The package, based on pxfonts, provides many fixes and
-enhancements to that package, and splits it in two parts
-(newpxtext and newpxmath) which may be run independently of one
-another. It provides scaling, improved metrics, and other
-options. For proper operation, the packages require that the
-packages newtxmath and txfonts be installed and their map files
-enabled.
-\end{package}
-\begin{package}{T1-TeXGyrePagellaX-Regular-pnum-kern-liga--base}{newpx}{Alternative uses of the PX fonts, with improved metrics.}
-The package, based on pxfonts, provides many fixes and
-enhancements to that package, and splits it in two parts
-(newpxtext and newpxmath) which may be run independently of one
-another. It provides scaling, improved metrics, and other
-options. For proper operation, the packages require that the
-packages newtxmath and txfonts be installed and their map files
-enabled.
-\end{package}
-
 
 \begin{package}{MinLibBol-t1}{newtx}{Alternative uses of the TX fonts, with improved metrics.}
 The bundle splits txfonts.sty (from the TX fonts distribution)
@@ -5462,6 +5485,16 @@ ocr-b package should also be installed.
 % 1 versions, converted for this package using FontForge for full
 % support with dvips
 % \end{package}
+
+\begin{package}{Overlock-Regular-lf-t1--base}{overlock}{Overlook sans fonts with LaTeX support.}
+The package provides the Overlock and OverlockSC families of
+fonts, designed by Dario Manuel Muhafara of the TIPO foundry
+(http://www.tipo.net.ar) are ``rounded'' sans-serif fonts in
+three weights (Regular, Bold, Black) with italic variants for
+each of them. There are also small-caps and old-style figures
+in the Regular weight.
+\end{package}
+
 % \begin{package}{}{orkhun}{A font for orkhun script.}
 % The font covers an old Turkic script. It is provided as
 % MetaFont source.
@@ -6405,6 +6438,12 @@ used. The entire font family is included.
 % package to use the logo at various sizes.
 % \end{package}
 
+\begin{package}{Roboto-Regular-lf-t1--base}{roboto}{Support for the Roboto family of fonts.}
+This package provides LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX
+support for the Roboto, RobotoCondensed and RobotoSlab families
+of fonts, designed by Christian Robertson for Google.
+\end{package}
+
 % \begin{package}{t1-romandeadf-yrdr}{romande}{Romande ADF fonts and {\LaTeX} support.}
 % Romande ADF is a serif font family with oldstyle figures,
 % designed as a substitute for Times, Tiffany or Caslon. The
@@ -6736,20 +6775,20 @@ The fonts are available both in Metafont and Type 1 format.
 % macros) are now largely superseded by the tipa fonts.
 % \end{package}
 
-\begin{package}{XCharter-Bold-tlf-t1--base}{xcharter}{Extension of Bitstream Charter fonts.}
-The package presents an extension of Bitstream Charter, which
-provides small caps, oldstyle figures and superior figures in
-all four styles, accompanied by {\LaTeX} font support files. The
-fonts themselves are provided in both Adobe Type~1 and OTF
-formats, with supporting files as necessary.
-\end{package}
-\begin{package}{XCharter-Italic-tlf-t1--base}{xcharter}{Extension of Bitstream Charter fonts.}
-The package presents an extension of Bitstream Charter, which
-provides small caps, oldstyle figures and superior figures in
-all four styles, accompanied by {\LaTeX} font support files. The
-fonts themselves are provided in both Adobe Type~1 and OTF
-formats, with supporting files as necessary.
-\end{package}
+% \begin{package}{XCharter-Bold-tlf-t1--base}{xcharter}{Extension of Bitstream Charter fonts.}
+% The package presents an extension of Bitstream Charter, which
+% provides small caps, oldstyle figures and superior figures in
+% all four styles, accompanied by {\LaTeX} font support files. The
+% fonts themselves are provided in both Adobe Type~1 and OTF
+% formats, with supporting files as necessary.
+% \end{package}
+% \begin{package}{XCharter-Italic-tlf-t1--base}{xcharter}{Extension of Bitstream Charter fonts.}
+% The package presents an extension of Bitstream Charter, which
+% provides small caps, oldstyle figures and superior figures in
+% all four styles, accompanied by {\LaTeX} font support files. The
+% fonts themselves are provided in both Adobe Type~1 and OTF
+% formats, with supporting files as necessary.
+% \end{package}
 \begin{package}{XCharter-Roman-tlf-t1--base}{xcharter}{Extension of Bitstream Charter fonts.}
 The package presents an extension of Bitstream Charter, which
 provides small caps, oldstyle figures and superior figures in
