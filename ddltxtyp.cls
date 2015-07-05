@@ -2,10 +2,10 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{ddltxtyp}
 %% based on book.cls 2007/10/19 v1.4h  Standard LaTeX document class
-  [2013/12/15 v0.1  The Diary Dose of LaTeX Typography: Tribute Hommage to Typodarium]
+  [2015/07/05 v0.2  The Diary Dose of LaTeX Typography: Tribute Hommage to Typodarium]
 %% fixes to LaTeX2e
-\RequirePackage{fix-cm}[2006/09/13 v1.1m]
-\RequirePackage{fixltx2e}[2006/09/13 v1.1m]
+\RequirePackage{fix-cm}[2015/01/14 v1.1t]
+%\RequirePackage{fixltx2e}[2015/02/21 v2.0a]% fixes to LaTeX (obsolete)
 
 \RequirePackage[T1]{fontenc}\RequirePackage{textcomp}
 \RequirePackage{graphicx}
